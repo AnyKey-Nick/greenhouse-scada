@@ -844,8 +844,8 @@ SOFTWARE.
 This project was developed as part of a diploma thesis on industrial automation and SCADA systems. If you use this code in academic work, please cite:
 
 ```
-[Your Name]. (2025). Greenhouse Air Heating System - SCADA Emulator.
-GitHub repository: https://github.com/yourusername/greenhouse-heating-scada
+Mykyta Anikieiev. (2025). Greenhouse Air Heating System - SCADA Emulator.
+GitHub repository: [https://github.com/yourusername/greenhouse-heating-scada]
 ```
 
 ---
