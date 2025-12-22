@@ -1,0 +1,36 @@
+# Greenhouse Heating System Configuration
+# =========================================
+
+[params]
+# Model parameters
+K = 41.67        # Heating gain: gives ~25C with Flow=0.6
+T1 = 120.0       # First time constant (s)
+T2 = 60.0        # Second time constant (s)
+L = 10.0         # Transport delay (s)
+Kz = 1.0         # Ambient coupling: gives ~1C from 10C ambient
+TambRef = 0.0    # Reference ambient temperature (°C)
+KUW = 0.5        # Water heating coefficient
+TW = 90.0        # Water time constant (s)
+
+[inputs]
+# Input signals
+T_out = 10.0     # Outside air temperature (°C)
+Flow = 0.6       # Steam flow control signal (0-1)
+dt_sec = 0.5     # Integration time step (seconds)
+
+[initial_state]
+# Initial conditions
+x1 = 20.0        # First state variable (initial greenhouse temp)
+x2 = 0.0         # Second state variable (derivative)
+T_water = 20.0   # Initial water temperature (°C)
+
+[ui]
+# User interface preferences
+plot_window_size = 600.0  # Time window for plots (seconds)
+timer_interval_ms = 50    # UI update interval (milliseconds)
+speed_multiplier = 1.0    # Default simulation speed
+
+[logging]
+# Data logging settings
+enabled = true
+max_samples = 100000      # Maximum logged samples (prevent memory overflow)
