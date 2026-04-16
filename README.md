@@ -876,6 +876,3 @@ Mykyta Anikieiev. (2025). Greenhouse Air Heating System - SCADA Emulator.
 - [ ] Model predictive control (MPC)
 - [ ] Real-time optimization
 
----
-
-**Built with ❤️ for industrial automation enthusiasts**
