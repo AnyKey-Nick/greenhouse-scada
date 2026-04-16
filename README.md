@@ -10,7 +10,7 @@ A professional **PyQt6-based SCADA application** simulating a greenhouse air hea
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 ### Process Simulation
 - **Physical Model**: Air heating via steam condensation in shell-and-tube heat exchanger
@@ -39,7 +39,7 @@ A professional **PyQt6-based SCADA application** simulating a greenhouse air hea
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
@@ -57,7 +57,7 @@ A professional **PyQt6-based SCADA application** simulating a greenhouse air hea
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -83,11 +83,11 @@ Run the test suite:
 pytest tests/ -v
 ```
 
-All tests should pass ✅
+All tests should pass 
 
 ---
 
-## 🎯 Quick Start
+## Quick Start
 
 ### 1. Launch SCADA Interface (Recommended)
 
@@ -135,7 +135,7 @@ Run a 60-minute simulation in batch mode and export to CSV.
 
 ---
 
-## 🏭 Physical Process
+## Physical Process
 
 ### System Description
 
@@ -324,7 +324,7 @@ Default filter time constant: τ = 0.1s
 
 ---
 
-## 🖥️ GUI Interfaces
+## GUI Interfaces
 
 ### SCADA Interface (Recommended)
 
@@ -389,11 +389,11 @@ Launch with `python app.py --scada`
    - Helper tools
 
 **Layout Improvements:**
-- ✅ Fixed text clipping issues (140px minimum label width)
-- ✅ Fixed fullscreen compression (QScrollArea wrapper)
-- ✅ Fixed grid position collision (setpoint at correct row)
-- ✅ DPI-aware sizing (works at 125%/150%)
-- ✅ Consistent row heights (24-28px)
+- Fixed text clipping issues (140px minimum label width)
+- Fixed fullscreen compression (QScrollArea wrapper)
+- Fixed grid position collision (setpoint at correct row)
+- DPI-aware sizing (works at 125%/150%)
+- Consistent row heights (24-28px)
 
 ### Material Design Interface
 
@@ -413,7 +413,7 @@ Basic interface for testing and debugging.
 
 ---
 
-## 💻 Command Line Usage
+## Command Line Usage
 
 ### Headless Batch Mode
 
@@ -476,7 +476,7 @@ python app.py --headless --minutes 15 --csv step.csv --scenario step_tout
 
 ---
 
-## 📚 API Reference
+## API Reference
 
 ### Model API
 
@@ -599,7 +599,7 @@ alarms.set_enabled('T_air_out', enabled=True)
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### TOML Configuration File
 
@@ -645,7 +645,7 @@ python app.py --config myconfig.toml
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run All Tests
 
@@ -690,7 +690,7 @@ View coverage report: `open htmlcov/index.html`
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 ### Main Documents
 
@@ -708,7 +708,7 @@ View coverage report: `open htmlcov/index.html`
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### PyQt6 Import Error
 
@@ -765,7 +765,7 @@ Compatible versions:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -796,7 +796,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## 📜 License
+## License
 
 MIT License
 
@@ -822,20 +822,12 @@ SOFTWARE.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **TRACE MODE** documentation for equation specifications
 - **PyQt6** and **pyqtgraph** for excellent GUI framework
 - **pandas**, **numpy**, **scipy** for scientific computing infrastructure
 - **pytest** for robust testing framework
-
----
-
-## 📞 Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/greenhouse-heating-scada/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/greenhouse-heating-scada/discussions)
-- **Email**: your.email@example.com
 
 ---
 
@@ -845,15 +837,14 @@ This project was developed as part of a diploma thesis on industrial automation 
 
 ```
 Mykyta Anikieiev. (2025). Greenhouse Air Heating System - SCADA Emulator.
-GitHub repository: [https://github.com/yourusername/greenhouse-heating-scada]
 ```
 
 ---
 
-## 📊 Project Status
+## Project Status
 
 **Current Version:** 2.0.0
-**Status:** ✅ Production-ready
+**Status:** Production-ready
 **Last Updated:** December 22, 2025
 
 ### Recent Changes (v2.0.0)
